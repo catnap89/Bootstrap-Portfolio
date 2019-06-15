@@ -15,34 +15,41 @@
 
 <body>
 
-	<!-- Is it okay to have more than one container? Ex) Containers for header, main and footer? -->
-	<div class="container">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
 
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<a class="navbar-brand" href="index.html">Youngwoo Cho</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				
-					<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-						<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-							<li class="nav-item active">
-								<a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="portfolio.html">Portfolio</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="contact.html">Contact</a>
-							</li>
-						</ul>
-					</div>
-				</nav>
-		</nav>
+			<a class="navbar-brand" href="index.html">Youngwoo Cho</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+				<ul class="navbar-nav ml-auto mt-2 mt-lg-0"> <!-- Changing mr-auto to ml-auto positioned nav links to the right side-->
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="portfolio.html">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>			
+
+		</div>
+
+			
+	</nav>
+
+	<!-- Is it okay to have more than one container? Ex) Containers for header, main and footer? -->
+	<!-- Unlike index.html, will try out using container-fluid for portfolio.html to see which one is better-->
+	<div class="container-fluid">
+
 
 		<div class="row">
 			<!-- Main Content. How do I center this? Do I need more columns to make up 12 columns -->
-			<div class="col-md-12">
+			<div class="col-md-8 offset-md-2">
 				<!-- Probably will have to make 2 sub rows for title and content? -->
 				<h1>
 					About Me
