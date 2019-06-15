@@ -7,7 +7,7 @@
 	
 	<!--Bootstrap CSS-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="style.css" type="text/css">
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
 	
 	<title>About Me</title>
     
@@ -15,128 +15,36 @@
 
 <body>
 
-	<nav class="navbar navbar-default navbar-light bg-white">
-		<div class="container">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="#">WebSiteName</a>
-			</div>
-			<ul class="nav navbar-nav">
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#">Page 1</a></li>
-				<li><a href="#">Page 2</a></li>
-				<li><a href="#">Page 3</a></li>
-			</ul>
-		</div>
-	</nav>
+	<div class="container">
 
-	<div class="container-fluid bg-light d-flex justify-content-center" style="height: 90px;">		
-		<div class="row bg-dark">
-			<div class="col-lg-2">
-
-			</div> 
-			<div class="col-lg-8">
-
-				<nav class="navbar navbar-expand-lg navbar-light bg-white p-0">
-			
-						<a class="navbar-brand bg-info text-white p-3" href="index.html">Youngwoo Cho</a>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-					
-						<div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
-		
-							<div class="navbar-nav">
-									<a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
-									<a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-									<a class="nav-item nav-link" href="contact.html">Contact</a>
-									
-							</div>
-		
-						</div>
-				</nav>
-
-			</div>
-			<div class="col-lg-2">
-
-			</div> 
-		</div>
-	</div>
-
-
-	
-	<nav class="navbar navbar-expand-lg navbar-light bg-white p-0">
-		<div class="container bg-dark" style="height: 90px;">
-			
-				<a class="navbar-brand bg-info text-white p-3" href="index.html">Youngwoo Cho</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-			
-				<div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
-	
-					<div class="navbar-nav">
-							<a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
-							<a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-							<a class="nav-item nav-link" href="contact.html">Contact</a>
-							
-					</div>
-	
-				</div>
-
-		</div>
-
-
-	</nav>
-	
-
-
-
-	
-
-		<!-- Body: 2 Rows. 1 Row-1 col (1 subrow 1 subcol), 1 row 1 col -->
-	<div class="container-fluid bg-info min-vh-100">  <!-- Figure out how to apply auto height and apply background image-->
-
-		<!-- <div class="row">			
-			<div class="col-md-12 bg-inf"> -->
-				<!-- Content 2:8:2  -->
-				<div class="row">
-					<div class="col-md-2 bg-dar">
-					</div>
-
-					<div class="col-md-8 bg-inf">
-
-						<h1 class="bg-light">dsdf</h1>
-						<p>adsfa</p>
-
-							<div class="jumbotron jumbotron-fluid">
-								<div class="container">
-									<h1 class="display-4">Hello, world!</h1>
-									<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-									<hr class="my-4">
-									<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-									<p class="lead">
-										<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-									</p>
-								</div>
-							</div>
-
-					</div>
-
-					<div class="col-md-2">
-					</div>
-				</div>
-			</div>
-		</div>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<a class="navbar-brand" href="#">Navbar</a>
+		</nav>
 
 		<div class="row">
-
-			<div class="col-md-12 bg-light fixed-bottom">
-				<p>Footer</p>
+			<!-- Main Content. How do I center this? Do I need more columns to make up 12 columns -->
+			<div class="col-md-12">
+				<!-- Probably will have to make 2 sub rows for title and content? -->
+				<h1>
+					About Me
+				</h1>
+				<img src="assets/images/youngwoo_cho_1.jpeg" alt="profile picuture">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe repudiandae, eum, ducimus minus dolore repellendus delectus nesciunt labore mollitia dicta voluptates expedita dolorem inventore accusamus quia, placeat optio in soluta.
+				</p>
 			</div>
+		</div>  <!-- row -->
 
-		</div>
-
+		<div class="row">
+			<div class="col-md-12">
+				<p>
+					Copyright&copy;
+				</p>
+			</div>
+		</div>  <!-- row -->
+		
 	</div>
+	
     
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

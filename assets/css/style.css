@@ -1,0 +1,56 @@
+/* * {
+    box-sizing: border-box;
+}
+
+.navbar {
+    border: 1px solid black;
+}
+
+.container {
+    border: 1px solid red;
+    padding: 0;
+
+}
+
+.container-fluid {
+    border: 1px solid purple;
+}
+
+@media (min-width: 960px) {
+    .container {
+      width: 960px;
+    }
+  }
+
+.col-md-8 {
+    border: 1px solid green;
+
+}
+
+.col-md-2 {
+    border: 1px solid yellow;
+}
+
+p {
+    border: 1px solid yellow;
+} */
+
+.container {
+    border: 1px solid black;
+}
+
+.row {
+    border: 1px solid red;
+}
+
+.col-md-8 {
+    border: 1px solid orange;
+}
+
+.col-md-12 {
+    border: 1px solid yellow;
+}
+
+body {
+    background-image: url("../images/concrete_seamless.png");
+}
