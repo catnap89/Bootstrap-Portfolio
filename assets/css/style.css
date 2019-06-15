@@ -39,6 +39,21 @@ p {
     border: 1px solid black;
 }
 
+.navbar {
+    border: 1px solid green;
+    
+    
+}
+
+.navbar-brand {
+    border: 1px solid blue;
+}
+
+.collapse {
+    border: 1px solid purple;
+ 
+}
+
 .row {
     border: 1px solid red;
 }
@@ -53,4 +68,10 @@ p {
 
 body {
     background-image: url("../images/concrete_seamless.png");
+}
+
+.profilepic {
+
+    width: 200px;
+    height: auto;
 }
