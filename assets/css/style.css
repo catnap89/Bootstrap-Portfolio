@@ -129,8 +129,59 @@ body > .container-fluid {
     margin-right: 40px;
 } */
 
+/* Contact */
+
+#contact-form ul {
+    margin-bottom: 20px;
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+#contact-form li {
+    margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+    display: block;
+    width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    height: 35px;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    font-size: 14px;
+
+
+}
+
+textarea {
+    height: 200px;
+}
+
+input[type=submit] {
+    background: #4aaaa5;
+    border: 0 none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 40px;
+    cursor: pointer;
+
+
+}
 
 /* Footer */
 .footer {
     background-color: #666666;
+    text-align: center;
+}
+
+.footer > p {
+    color: #fff;
 }

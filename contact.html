@@ -60,16 +60,25 @@
 
 				<div class="row mt-2">
 					<div class="col-md-12">
-						<img class="profilepic rounded float-left mr-2" src="assets/images/youngwoo_cho_1.jpeg" alt="profile picuture">
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe repudiandae, eum, ducimus minus dolore repellendus delectus nesciunt labore mollitia dicta voluptates expedita dolorem inventore accusamus quia, placeat optio in soluta.
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe repudiandae, eum, ducimus minus dolore repellendus delectus nesciunt labore mollitia dicta voluptates expedita dolorem inventore accusamus quia, placeat optio in soluta.
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe repudiandae, eum, ducimus minus dolore repellendus delectus nesciunt labore mollitia dicta voluptates expedita dolorem inventore accusamus quia, placeat optio in soluta.
-						</p>
+
+						<form id="contact-form">
+							<ul>
+								<li>
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" placeholder="John Smith" required="required">
+								</li>
+								<li>
+									<label for="email">Email</label>
+									<input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+								</li>
+								<li>
+									<label for="message">Message</label>
+									<textarea id="message" name="message" required="required"></textarea>
+								</li>
+							</ul>
+							<input class="btn btn-info btn-lg" type="submit" name="submit">
+						</form>
+
 					</div>
 				</div>  <!--row-->
 				
