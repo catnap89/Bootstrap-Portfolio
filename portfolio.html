@@ -15,34 +15,31 @@
 
 <body>
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-		<div class="container-fluid">
-
-			<a class="navbar-brand" href="index.html">Youngwoo Cho</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			
-			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-				<ul class="navbar-nav ml-auto mt-2 mt-lg-0"> <!-- Changing mr-auto to ml-auto positioned nav links to the right side-->
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="portfolio.html">Portfolio</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="contact.html">Contact</a>
-					</li>
-				</ul>
-			</div>			
-
-		</div>
-	</nav>
-
+	
 	<!-- Is it okay to have more than one container? Ex) Containers for header, main and footer? -->
 	<!-- Unlike index.html, will try out using container-fluid for portfolio.html to see which one is better-->
 	<div class="container-fluid">
+		
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+				<a class="navbar-brand font-weight-bold text-reset" href="index.html">Youngwoo Cho</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+					<ul class="navbar-nav ml-auto mt-2 mt-lg-0"> <!-- Changing mr-auto to ml-auto positioned nav links to the right side-->
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="portfolio.html">Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</div>			
+		</nav>
 
 
 		<div class="row">
@@ -62,6 +59,7 @@
 					<div class="col-md-12">
 						<!-- <img class="profilepic rounded float-left mr-2" src="assets/images/youngwoo_cho_1.jpeg" alt="profile picuture"> -->
 
+						<!-- use @media query for responsive images-->
 						<div class="portfolio">
 								<img src="assets/images/hangman.png" alt="Hangman" class="portfolioImage">
 					
