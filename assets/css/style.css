@@ -124,14 +124,15 @@ body {
     position: relative;
     float: left;
     margin: 25px;
-    /* background-color: black; */
+    
 }
 
 .portfolioImage {
-    width: 100%;
-    border: 0 none;
+    width: 274px;
     height: 200px;
-    /* opacity: .8; */
+    border: 0 none;
+
+   
 
 }
 
@@ -211,4 +212,48 @@ input[type=submit] {
 
 .footer > p {
     color: #fff;
+}
+
+/* @media query*/
+
+
+/* PortfolioImage */
+@media only screen and (max-width: 980px) {
+    .portfolioImage {
+        width: 100%;
+        
+    }
+    
+    .portfolio h3 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .portfolioImage {
+        width: 246px;
+        height: 180px;
+        
+    }
+    
+    .portfolio h3 {
+        width: 246px;
+        height: auto;
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .portfolioImage {
+        width: 219px;
+        height: 160px;
+        
+    }
+    
+    .portfolio h3 {
+        width: 219px;
+        height: auto;
+        font-size: 80%;
+    }
 }
