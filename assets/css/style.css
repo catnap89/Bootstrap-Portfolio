@@ -64,12 +64,6 @@ body {
     
 }
 
-
-/* Containers */
-/* .container {
-    border: 1px solid black;
-} */
-
 .container-fluid {
     /* border: 3px solid teal; */
     height: 100%;
@@ -77,19 +71,6 @@ body {
     overflow: auto;
 }
 
-/* .row {
-    border: 1px solid red;
-
-} */
-
-/* .col-md-8 {
-    border: 1px solid orange;
-    
-} */
-
-/* .col-md-12 {
-    border: 1px solid yellow;
-} */
 
 /* Content */
 
@@ -151,10 +132,6 @@ body {
 
 
 }
-
-/* .portfolio:nth-child(even) {
-    margin-right: 40px;
-} */
 
 /* Contact */
 
