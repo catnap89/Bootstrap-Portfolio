@@ -34,7 +34,6 @@ body {
 
 
 .navbar-brand {
-    /* border: 1px solid blue; */
     background-color: #4aaaa5;
     padding-right: 20px;
     padding-left: 20px;
@@ -42,14 +41,11 @@ body {
 
     height: 84px;
     font-size: 30px;
-    
 }
 
 
 .collapse {
-    /* border: 1px solid purple; */
-    padding: 10px;
-    
+    padding: 10px;  
 }
 
 .navbar-toggler {
@@ -59,13 +55,10 @@ body {
 }
 
 .navbar-nav {
-    /* border: 1px solid pink; */
-    padding: 10px;
-    
+    padding: 10px;   
 }
 
 .container-fluid {
-    /* border: 3px solid teal; */
     height: 100%;
     background-image: url("../images/concrete_seamless.png");
     overflow: auto;
@@ -87,7 +80,6 @@ body {
     border-bottom: 3px solid #dddddd;
     padding-bottom: 10px;
     color: #4aaaa5;
-
 }
 
 
@@ -105,16 +97,12 @@ body {
     position: relative;
     float: left;
     margin: 25px;
-    
 }
 
 .portfolioImage {
     width: 274px;
     height: 200px;
     border: 0 none;
-
-   
-
 }
 
 .portfolio h3 {
@@ -129,8 +117,6 @@ body {
     line-height: 30px;
     margin-bottom: 0; /* Does this even change anything? */
     font-weight: 300;
-
-
 }
 
 /* Contact */
@@ -138,8 +124,7 @@ body {
 #contact-form ul {
     margin-bottom: 20px;
     list-style-type: none;
-    padding: 0;
-    
+    padding: 0; 
 }
 
 #contact-form li {
@@ -161,8 +146,6 @@ textarea {
     border: 1px solid #ddd;
     padding: 0 10px;
     font-size: 14px;
-
-
 }
 
 textarea {
@@ -176,8 +159,6 @@ input[type=submit] {
     font-size: 18px;
     padding: 10px 40px;
     cursor: pointer;
-
-
 }
 
 /* Footer */
@@ -192,8 +173,6 @@ input[type=submit] {
 }
 
 /* @media query*/
-
-
 /* PortfolioImage */
 @media only screen and (max-width: 980px) {
     .portfolioImage {
