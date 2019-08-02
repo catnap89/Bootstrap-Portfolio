@@ -76,10 +76,30 @@ body {
     border: 1px solid #ddd;
 }
 
+.col-4-contents {
+    background-color: #ffffff;
+    margin-top: 120px;
+    margin-bottom: 90px;
+    padding: 20px;
+    overflow: auto;
+    border: 1px solid #ddd;
+}
+
+
 .title {
     border-bottom: 3px solid #dddddd;
     padding-bottom: 10px;
     color: #4aaaa5;
+}
+
+/* icons */
+
+.linkedIn {
+    width: 80px;
+}
+
+.github {
+    width: 80px;
 }
 
 
