@@ -76,14 +76,14 @@ body {
     border: 1px solid #ddd;
 }
 
-.col-4-contents {
+/* .col-4-contents {
     background-color: #ffffff;
     margin-top: 120px;
     margin-bottom: 90px;
     padding: 20px;
     overflow: auto;
     border: 1px solid #ddd;
-}
+} */
 
 
 .title {
@@ -92,14 +92,27 @@ body {
     color: #4aaaa5;
 }
 
+.side-bar {
+    /* height: 300px; */
+    background-color: #ffffff;
+    margin-top: 120px;
+    margin-bottom: 90px;
+    padding: 20px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
 /* icons */
 
 .linkedIn {
-    width: 80px;
+    width: 60px;
+    margin: 5px;
 }
 
 .github {
-    width: 80px;
+    width: 60px;
+    margin: 5px;
 }
 
 
@@ -137,6 +150,30 @@ body {
     line-height: 30px;
     margin-bottom: 0; /* Does this even change anything? */
     font-weight: 300;
+}
+
+/* overlay */
+.ovl-hover {
+    opacity: 0;
+    transition: 0.75s;
+}
+
+.ovl-hover:hover {
+    opacity: 1;
+    /* rgb (black,red,green, opacity) */
+    background: rgb(0,0,0,0.6) 
+}
+
+.nav-pills {
+    justify-content: space-between;
+}
+
+.github-pill {
+    margin: 5px;
+}
+
+.deployed-pill {
+    margin: 5px;
 }
 
 /* Contact */
