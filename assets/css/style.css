@@ -124,33 +124,6 @@ body {
 }
 
 /* Portfolio */
-.portfolio {
-    width: 274px;
-    overflow: auto;
-    position: relative;
-    float: left;
-    margin: 25px;
-}
-
-.portfolioImage {
-    width: 274px;
-    height: 200px;
-    border: 0 none;
-}
-
-.portfolio h3 {
-    border-bottom: 0;
-    background: #4aaaa5; /* What is the difference between background and background-color? */
-    color: #fff;
-    text-align: center;
-    position: absolute;
-    bottom: 20px;
-    padding: 15px;
-    width: 100%;
-    line-height: 30px;
-    margin-bottom: 0; /* Does this even change anything? */
-    font-weight: 300;
-}
 
 /* overlay */
 .ovl-hover {
@@ -162,6 +135,10 @@ body {
     opacity: 1;
     /* rgb (black,red,green, opacity) */
     background: rgb(0,0,0,0.6) 
+}
+
+.project-name {
+    color: #4aaaa5;
 }
 
 .nav-pills {
