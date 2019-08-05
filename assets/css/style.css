@@ -67,7 +67,7 @@ body {
 
 /* Content */
 
-.col-8-contents {
+.col-7-contents {
     background-color: #ffffff;
     margin-top: 120px;
     margin-bottom: 90px;
@@ -76,14 +76,14 @@ body {
     border: 1px solid #ddd;
 }
 
-/* .col-4-contents {
-    background-color: #ffffff;
+.col-4-contents {
+    /* background-color: #ffffff;
     margin-top: 120px;
     margin-bottom: 90px;
     padding: 20px;
-    overflow: auto;
+    overflow: auto; */
     border: 1px solid #ddd;
-} */
+}
 
 
 .title {
@@ -111,6 +111,11 @@ body {
 }
 
 .github {
+    width: 60px;
+    margin: 5px;
+}
+
+.gmail {
     width: 60px;
     margin: 5px;
 }
@@ -209,41 +214,16 @@ input[type=submit] {
 /* @media query*/
 /* PortfolioImage */
 @media only screen and (max-width: 980px) {
-    .portfolioImage {
-        width: 100%;
-        
-    }
-    
-    .portfolio h3 {
-        width: 100%;
-        height: auto;
-    }
+
 }
 
 @media only screen and (max-width: 768px) {
-    .portfolioImage {
-        width: 246px;
-        height: 180px;
-        
-    }
-    
-    .portfolio h3 {
-        width: 246px;
-        height: auto;
-        font-size: 90%;
+
+    .col-7-contents {
+        margin-bottom: 0;
     }
 }
 
 @media only screen and (max-width: 640px) {
-    .portfolioImage {
-        width: 219px;
-        height: 160px;
-        
-    }
-    
-    .portfolio h3 {
-        width: 219px;
-        height: auto;
-        font-size: 80%;
-    }
+
 }
